@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Квиз, плиз! - Резерв на игру</title>
+    <style>
+      /* Сброс стилей для email */
+      body,
+      table,
+      td,
+      p,
+      a,
+      li,
+      blockquote {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      /* Основные стили */
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        min-width: 100%;
+        height: 100% !important;
+        background-color: #faf0ff;
+        font-family: Arial, Roboto;
+      }
+
+      .email-wrapper {
+        width: 100%;
+        background-color: #faf0ff;
+      }
+
+      .email-container {
+        max-width: 660px;
+        margin: 0 auto;
+        background-color: #faf0ff;
+      }
+
+      /* Адаптивность */
+      @media only screen and (max-width: 660px) {
+        .email-container {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-center {
+          text-align: center !important;
+        }
+
+        .mobile-full {
+          width: 100% !important;
+        }
+
+        .mobile-stack {
+          display: block !important;
+          width: 100% !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="padding: 0">
+          <table
+            class="email-container"
+            width="660"
+            cellpadding="0"
+            cellspacing="0"
+            style="background-color: #faf0ff"
+          >
+            <!-- Баннер с градиентом -->
+            <tr>
+              <td>
+                <img
+                  src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/banner.png?raw=true"
+                  alt=""
+                />
+              </td>
+            </tr>
+
+            <!-- Основной контент -->
+            <tr>
+              <td style="padding: 40px 20px 0; background-color: #faf0ff">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="text-align: left; padding-bottom: 30px">
+                      <h1
+                        style="
+                          font-size: 36px;
+                          font-weight: 900;
+                          color: #333333;
+                          margin: 0 0 10px 0;
+
+                          letter-spacing: -3.5px;
+                        "
+                      >
+                        ВЫ ЗАПИСАНЫ В РЕЗЕРВ НА ИГРУ
+                      </h1>
+                      <h2
+                        style="
+                          font-size: 36px;
+                          font-weight: 900;
+                          color: #333333;
+                          margin: 0;
+
+                          letter-spacing: -3.5px;
+                        "
+                      >
+                        [КИНО И МУЗЫКА] #1
+                      </h2>
+                      <img
+                        src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/info.png?raw=true"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!-- Детали игры -->
+                  <tr>
+                    <td>
+                      <table width="100%" style="margin-bottom: 25px">
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Капитан:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            Анастасия
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Команда:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            Неловко вышло
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Кол-во человек:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            7
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Дата и время:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            26 апреля 19:30
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 30%;
+                            "
+                          >
+                            Место:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 70%;
+                            "
+                          >
+                            Пивной дом Klausberg, Рахова 26/40
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Стоимость:
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            500 Р с человека
+                            <hr
+                              style="
+                                border: none;
+                                height: 1px;
+                                background-color: #aaaaaa99;
+                                width: 101%;
+                                margin-top: 15px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #666666;
+                              font-size: 20px;
+                              font-weight: 500;
+                              width: 40%;
+                            "
+                          >
+                            Промокод:
+                          </td>
+                          <td
+                            style="
+                              color: #333333;
+                              font-size: 20px;
+                              font-weight: 700;
+                              text-align: right;
+                              width: 60%;
+                            "
+                          >
+                            тукпукмук
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- Информационная секция -->
+                  <tr>
+                    <td
+                      style="
+                        background: #f2d7ff;
+                        padding: 30px 20px;
+                        border-radius: 15px;
+                        margin: 20px 0;
+                      "
+                    >
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td
+                            style="
+                              color: #33004c;
+                              font-size: 26px;
+                              font-weight: 700;
+                              margin: 0 0 20px 0;
+
+                              padding-bottom: 20px;
+                              text-align: left;
+                            "
+                          >
+                            5 вещей, которые вам надо знать (но не обязательно):
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              color: #33004c;
+                              font-size: 18px;
+                              line-height: 1.5;
+
+                              font-weight: 400;
+                            "
+                          >
+                            <ul style="margin: 0; padding-left: 20px">
+                              <li style="margin: 10px 0">
+                                Игра игра длится
+                                <span style="font-weight: 700"
+                                  >примерно 2 часа</span
+                                >
+                                – вы не соскучитесь!
+                              </li>
+                              <li style="margin: 10px 0">
+                                <span style="font-weight: 700"
+                                  >Приходите за 30 минут до игры,</span
+                                >
+                                чтобы успеть схватить еду и напитки без паники.
+                              </li>
+                              <li style="margin: 10px 0">
+                                <span style="font-weight: 700"
+                                  >Цифровой детокс:</span
+                                >
+                                телефоны отдыхают, а вам можно залипать только в
+                                перерывах.
+                              </li>
+                              <li style="margin: 10px 0">
+                                Готовьтесь к новым аватарком, ведь на каждой
+                                игре работает
+                                <span style="font-weight: 700"
+                                  >профессиональный фотограф!</span
+                                >
+                              </li>
+                              <li style="margin: 10px 0">
+                                Лототрон ждёт: зарегистрируйтесь и заберите
+                                <span style="font-weight: 700"
+                                  >приз вне зависимости от результата
+                                  игры!</span
+                                >
+                              </li>
+                            </ul>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- CTA кнопки -->
+                  <tr>
+                    <td style="padding: 30px 0">
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="300px" style="padding-right: 10px">
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              style="
+                                background: #33004c;
+                                border-radius: 30px;
+                                text-align: center;
+                              "
+                            >
+                              <tr>
+                                <td>
+                                  <img
+                                    src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/format.png?raw=true"
+                                    alt="Попробуйте наш новый формат"
+                                    style="
+                                      vertical-align: middle;
+                                      margin: 35px 0 0px 0;
+                                    "
+                                  />
+                                  <br />
+                                  <p
+                                    style="
+                                      color: #ffffff;
+                                      font-size: 26px;
+                                      font-weight: 900;
+                                      margin: 17.5px 0;
+                                    "
+                                  >
+                                    Квиз, плиз! Хоум
+                                  </p>
+                                  <p
+                                    style="
+                                      color: #ffffff;
+                                      background-color: #ff065f;
+
+                                      border-radius: 15px;
+                                      font-weight: 600;
+                                      font-size: 18px;
+                                      padding: 15px;
+                                      margin: 15px;
+                                    "
+                                  >
+                                    <a
+                                      href="https://quizplease.ru/home-games/about"
+                                      style="
+                                        color: #ffffff;
+                                        text-decoration: none;
+                                      "
+                                    >
+                                      УЗНАТЬ БОЛЬШЕ
+                                    </a>
+                                  </p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td width="300px" style="padding-left: 10px">
+                            <img
+                              src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/man.png?raw=true"
+                              alt="Персонаж"
+                              style="
+                                height: auto;
+                                display: block;
+                                margin: 0 auto;
+                              "
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- Социальные сети -->
+                  <tr style="padding: 20px">
+                    <td
+                      style="
+                        background-color: #f2d7ff;
+                        padding: 20px;
+                        text-align: center;
+                        border-radius: 30px;
+                      "
+                    >
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td
+                            style="
+                              color: #33004c;
+                              font-size: 26px;
+
+                              font-weight: 700;
+                            "
+                          >
+                            Лайки, подписки и вот это всё
+                            <a
+                              href="https://vk.com/quiz_please?from=search"
+                              style="
+                                display: inline-block;
+                                width: 80.33px;
+                                height: 80.33px;
+                                background-color: #e91e63;
+                                border-radius: 50%;
+                                text-align: center;
+                                line-height: 80.33px;
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-decoration: none;
+
+                                font-size: 14px;
+                              "
+                            >
+                              <img
+                                src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/vk.png?raw=true"
+                                alt="VK.com"
+                                style="
+                                  width: 32.13px;
+                                  height: 32.13px;
+                                  vertical-align: middle;
+                                "
+                              />
+                            </a>
+                            <a
+                              href="@quizplease_moscow"
+                              style="
+                                display: inline-block;
+                                width: 80.33px;
+                                height: 80.33px;
+                                background-color: #e91e63;
+                                border-radius: 50%;
+                                text-align: center;
+                                line-height: 80.33px;
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-decoration: none;
+
+                                font-size: 14px;
+                              "
+                            >
+                              <img
+                                src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/tg.png?raw=true"
+                                alt="Telegram"
+                                style="
+                                  width: 32.13px;
+                                  height: 32.13px;
+                                  vertical-align: middle;
+                                "
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr
+                    style="
+                      color: #33004c;
+                      font-size: 36px;
+                      font-weight: 900;
+
+                      text-align: center;
+                    "
+                  >
+                    <td style="padding: 20px">С УВАЖЕНИЕМ,</td>
+                  </tr>
+                  <tr
+                    style="
+                      color: #33004c;
+                      font-size: 36px;
+                      font-weight: 900;
+
+                      padding-bottom: 20px;
+                      text-align: center;
+                    "
+                  >
+                    <td>КОМАНДА КВИЗ, ПЛИЗ!</td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #33004c;
+                        font-size: 12px;
+                        font-weight: 400;
+
+                        padding-top: 29.27px;
+                        padding-bottom: 29.27px;
+                        text-align: left;
+                      "
+                    >
+                      <table>
+                        <tr
+                          style="
+                            color: #33004c;
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin-bottom: -12px;
+                            text-align: left;
+                            opacity: 60%;
+                          "
+                        >
+                          Игра «Квиз, плиз!» является результатом
+                          интеллектуальной деятельности, и все входящие в неё
+                        </tr>
+                        <tr
+                          style="
+                            color: #33004c;
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin-bottom: -12px;
+                            text-align: left;
+                            opacity: 60%;
+                          "
+                        >
+                          материалы защищаются авторским правом. Игроки вправе
+                          использовать приобретённую игру
+                        </tr>
+                        <tr
+                          style="
+                            color: #33004c;
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin-bottom: -12px;
+                            text-align: left;
+                            opacity: 60%;
+                          "
+                        >
+                          исключительно в личных целях. Запрещено копировать,
+                          записывать, воспроизводить, распространять
+                        </tr>
+                        <tr
+                          style="
+                            color: #33004c;
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin-bottom: -12px;
+                            text-align: left;
+                            opacity: 60%;
+                          "
+                        >
+                          как игру в целом, так и её составные части.
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Футер -->
+            <tr>
+              <td
+                style="
+                  padding: 0;
+                  text-align: center;
+                  background-color: #2f004c;
+                "
+              >
+                <table
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="
+                    padding: 32px 0;
+                    text-align: center;
+                    background-color: #2f004c;
+                    margin: 0 auto;
+                  "
+                >
+                  <tr>
+                    <td style="padding: 0 15px">
+                      <a
+                        href="#"
+                        style="
+                          display: inline-block;
+                          width: 50px;
+                          height: 50px;
+                          border-radius: 50%;
+                          text-align: center;
+                          line-height: 50px;
+                          color: #ffffff;
+                          font-weight: bold;
+                          text-decoration: none;
+
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/logo.png?raw=true"
+                          alt="Квиз плиз!"
+                          style="
+                            width: 42px;
+                            height: 41.3px;
+                            vertical-align: middle;
+                          "
+                        />
+                      </a>
+                    </td>
+                    <td style="padding: 0 15px">
+                      <a
+                        href="#"
+                        style="
+                          color: #ffffff;
+                          text-decoration: none;
+
+                          font-size: 16px;
+                          font-weight: 500;
+                        "
+                        >Расписание</a
+                      >
+                    </td>
+                    <td style="padding: 0 15px">
+                      <a
+                        href="#"
+                        style="
+                          color: #ffffff;
+                          text-decoration: none;
+
+                          font-size: 16px;
+                          font-weight: 500;
+                        "
+                        >Корпоративы</a
+                      >
+                    </td>
+                    <td style="padding: 0 15px">
+                      <a
+                        href="#"
+                        style="
+                          color: #ffffff;
+                          text-decoration: none;
+
+                          font-size: 16px;
+                          font-weight: 500;
+                        "
+                        >Франшиза</a
+                      >
+                    </td>
+                    <td style="padding: 0 15px">
+                      <a
+                        href="@quizplease_moscow"
+                        style="
+                          display: inline-block;
+                          width: 50px;
+                          height: 50px;
+                          border-radius: 50%;
+                          text-align: center;
+                          line-height: 50px;
+                          color: #ffffff;
+                          font-weight: bold;
+                          text-decoration: none;
+
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/tgcircle.png?raw=true"
+                          alt="Tg"
+                          style="
+                            width: 32px;
+                            height: 32px;
+                            vertical-align: middle;
+                          "
+                        />
+                      </a>
+                      <a
+                        href="https://vk.com/quiz_please?from=search"
+                        style="
+                          display: inline-block;
+                          width: 50px;
+                          height: 50px;
+                          border-radius: 50%;
+                          text-align: center;
+                          line-height: 50px;
+                          color: #ffffff;
+                          font-weight: bold;
+                          text-decoration: none;
+
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="https://github.com/one4atka-hash/quiz-letter/blob/main/images/vkcircle.png?raw=true"
+                          alt="VK"
+                          style="
+                            width: 32px;
+                            height: 32px;
+                            vertical-align: middle;
+                          "
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <table
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="
+                    padding: 0 0 32px;
+                    text-align: center;
+                    background-color: #2f004c;
+                    margin: 0;
+                  "
+                >
+                  <tr>
+                    <td
+                      style="
+                        color: #ffffff;
+                        font-size: 12px;
+                        padding: 3px 41px;
+                        text-align: left;
+                        font-weight: 400;
+                        opacity: 60%;
+                      "
+                    >
+                      © ИП Глинский А.А. Все права защищены.
+                    </td>
+                    <td
+                      style="
+                        color: #ffffff;
+                        font-size: 16px;
+                        text-decoration: none;
+                        padding: 3px 41px;
+                        text-align: right;
+                        font-weight: 700;
+                      "
+                    >
+                      +7 495 946-78-49
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #ffffff;
+                        font-size: 12px;
+
+                        padding: 3px 41px;
+                        text-align: left;
+                        font-weight: 400;
+                        opacity: 60%;
+                      "
+                    >
+                      Отписаться от рассылки можно по
+                      <a
+                        style="color: #ffffff"
+                        href="https://tn-rhz.mckx.ru/u/DbYaAAAAcOABAGjM/00qrDPEGw9dvrWqd?m-message-key-id=-3717721484333940736&m-message-click-id=789e3ee6-ce69-44fc-b82c-b130a0e689b7&utm_source=email&utm_medium=mindbox&utm_campaign=Rassrochka160924"
+                        >ссылке</a
+                      >
+                    </td>
+                    <td
+                      style="
+                        color: #ffffff;
+                        font-size: 16px;
+                        padding: 3px 41px;
+                        text-align: right;
+                        font-weight: 700;
+                      "
+                    >
+                      <a
+                        style="color: #ffffff; text-decoration: none"
+                        href="mailto:game@quizplease.ru"
+                        >game@quizplease.ru</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
